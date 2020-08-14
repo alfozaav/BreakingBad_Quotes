@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import ProtoTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const ContenedorFrase = styled.div`
     padding: 3rem;
@@ -49,8 +49,8 @@ const Frase = (props) => {
     );
 }
 
-Frase.protoTypes = {
-    frase: ProtoTypes.object.isRequired
+Frase.propTypes = {
+    frase: PropTypes.object.isRequired
 }
  
 export default Frase;
